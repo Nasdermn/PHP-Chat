@@ -1,0 +1,54 @@
+body {
+  background: #2e393e;
+  width: 90vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  border: 2px dashed #000000;
+  padding: 2%;
+  background-color: #740c0c;
+}
+
+.input {
+  width: 200px;
+}
+
+.chat {
+  width: 90%;
+  height: 60%;
+  border: 2px dashed #000000;
+  background-color: #0da34b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  text-align: center;
+  margin: 0 auto;
+  height: 15%;
+}
+
+.textfield {
+  border: 1px solid #000;
+  height: 80%;
+  width: 90%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.footer {
+  font-size: 40px;
+  font-weight: bold;
+  color:#711010;
+  text-shadow: 3px 3px 2px black;
+}
